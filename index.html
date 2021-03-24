@@ -533,15 +533,14 @@
       <a href="#" target="_blank" class="btn btn-primary btn-lg" style="width:100%;">Apply Now</a>
     </div>
     <script>
-        window.onscroll = function() {changeButton()};
-        function changeButton() {
-          if ((document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) && (window.innerHeight + window.scrollY) < document.body.offsetHeight) {
-            document.getElementById("nav-cta").className = "btn btn-primary";
-          } else {
-            document.getElementById("nav-cta").className = "btn btn-outline-dark";
-          }
+      window.onscroll = function() {changeButton()};
+      function changeButton() {
+        if ((document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) && (window.innerHeight + window.scrollY) < document.body.offsetHeight) {
+          document.getElementById("nav-cta").className = "btn btn-primary";
+        } else {
+          document.getElementById("nav-cta").className = "btn btn-outline-dark";
         }
-      });
+      }
     </script>
   </body>
 </html>
