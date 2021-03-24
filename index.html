@@ -32,6 +32,11 @@
     <style>
       body {
         font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        transition: opacity 0.7s;
+        opacity: 1;
+      }
+      body.fade {
+        opacity: 0;
       }
       #what-we-do {
         background: #ea6b45; /* Old browsers */
@@ -46,7 +51,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
-  <body>
+  <body style="display:none;" class="fade">
 
     <nav class="navbar fixed-top">
       <div class="container-fluid">
@@ -541,6 +546,8 @@
           document.getElementById("nav-cta").className = "btn btn-outline-dark";
         }
       }
+      document.body.style.display = "block";
+      document.body.classList.remove("fade");
     </script>
   </body>
 </html>
