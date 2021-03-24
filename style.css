@@ -431,6 +431,10 @@ section.container-fluid {
   h2.closing {
     font-size: 2.2rem;
     line-height: 1.5;
+    margin-bottom: 3rem;
+  }
+  section#final-cta {
+    padding-top: 7rem;
   }
  }
 
