@@ -10,7 +10,7 @@
     <link rel="manifest" href="site.webmanifest">
 
     <title>Stacks Accelerator: Elite Network, Hands-On Support, Capital to Grow</title>
-    <meta name="description" content="Stacks Accelerator invests in outstanding startup teams building on the Stacks blockchain.">
+    <meta name="description" content="Stacks Accelerator invests in outstanding startup teams building on the Stacks blockchain. Stacks is a layer-1 blockchain that enables smart contracts and decentralized apps to be built on Bitcoin">
     <meta name="keywords" content="stacks, blockstack, stacks accelerator, blockchain accelerator, crypto accelerator, NFT accelerator, DeFi accelerator, DAO accelerator" />
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -20,31 +20,42 @@
 
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Rocketship: Create An Accelerator For Anything">
-    <meta property="og:description" content="Rocketship allows coaches to create an accelerator for their passion, deliver curriculum and mentorship, build community, and transform students lives.">
+    <meta property="og:title" content="Stacks Accelerator: Elite Network, Hands-On Support, Capital to Grow">
+    <meta property="og:description" content="Stacks Accelerator invests in outstanding startup teams building on the Stacks blockchain. Stacks is a layer-1 blockchain that enables smart contracts and decentralized apps to be built on Bitcoin">
     <meta property="og:url" content="https://stacks.ac/">
     <meta property="og:site_name" content="stacks.ac">
 
-    <meta property="og:image" content=" " />
-    <meta property="twitter:image" content=" " />
+    <meta property="og:image" content="assets/stacks-rocket.gif" />
+    <meta property="twitter:image" content="assets/stacks-rocket.gif" />
     <meta name="twitter:card" content="summary">
+
+    <style>
+      body {
+        font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      }
+      #what-we-do {
+        background: #ea6b45; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #ea6b45 0%, #b454bf 31%, #3d4af4 68%, #3d4af4 68%, #6ce8e5 93%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #ea6b45 0%,#b454bf 31%,#3d4af4 68%,#3d4af4 68%,#6ce8e5 93%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #ea6b45 0%,#b454bf 31%,#3d4af4 68%,#3d4af4 68%,#6ce8e5 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      }
+      </style>
 
     <link rel="shortlink" href="https://stacks.ac/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="masonry.js"></script>
   </head>
 
   <body>
 
     <nav class="navbar fixed-top">
       <div class="container-fluid">
-        <div class="d-flex align-items-center justify-content-center justify-content-lg-between" style="width:100%;">
+        <div class="navbar-align" style="width:100%;">
           <div class="navbar-brand mb-0 h1">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.5889 99.5895" height="18px" style="margin-top:-4px;margin-right:3px;"><g id="full-rgb"><path id="logoMark" d="M90.3747,99.59l-21.13-32.014h30.344V55.4976H0V67.59H30.3341L9.2142,99.59H24.9708L49.7945,61.9784,74.6181,99.59ZM99.5889,43.775v-12.2H69.8612L90.7007,0H74.9442l-25.15,38.1051L24.6447,0H8.8882L29.7544,31.6033H0V43.775Z"/></g></svg>
             Stacks Accelerator
           </div>
-          <div class="text-end">
+          <div class="navbar-cta">
             <a href="#" target="_blank" id="nav-cta" class="btn btn-outline-dark">Apply Now</a>
           </div>
         </div>
@@ -54,7 +65,7 @@
 
     <main id="intro" class="container-fluid">
       <div class="row" style="min-height:720px;">
-        <div class="col">
+        <div class="col col-12 col-md-6">
           <div class="hero d-flex justify-content-center flex-column">
             <h1>
               Elite Network</br>
@@ -63,13 +74,13 @@
             </h1>
             <p>Join our 3-month startup acceleration program</p>
             <div>
-              <a href="#" target="_blank" class="btn btn-primary btn-lg">Apply Now</a>
-              <a href="#" target="_blank" class="btn btn-light btn-lg">Learn More</a>
+              <a href="#" target="_blank" class="btn btn-primary btn-lg" style="margin-right:5px;">Apply Now</a>
+              <a href="#what-we-do" class="btn btn-light btn-lg">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div id="stacks-animation" style="margin-right:-36px;margin-top:-10px;">
+        <div class="col col-12 col-md-6">
+          <div id="stacks-animation">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_kumzsqrc.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
           </div>
         </div>
@@ -77,28 +88,49 @@
     </main>
 
     <section id="what-we-do" class="video-bg ratio ratio-16x9">
-      <video autoplay muted loop id="myVideo" class="ratio ratio-16x9">
+      <video autoplay muted loop id="myVideo" class="ratio ratio-16x9 d-none d-lg-block">
         <source src="assets/living-gradient.mp4" type="video/mp4">
       </video>
       <img src="assets/noise.png" style="mix-blend-mode: multiply;">
       <div class="content container-fluid d-flex justify-content-center flex-column">
         <h2>We invest in outstanding startup teams building on the <u>Stacks</u> blockchain</h2>
-        <p>Stacks is a layer-2 blockchain that enables smart contracts and decentralized apps to be built on Bitcoin</p>
+        <p>Stacks is a layer-1 blockchain that enables smart contracts and decentralized apps to be built on Bitcoin</p>
       </div>
     </section>
     <section id="investor-network" class="container-fluid">
       <h2>Our investor network is your investor network</h2>
       <p>Stacks is backed by Silicon Valley's A-List. You're getting a warm intro to a room full of investors with a financial incentive to support you</p>
-      <img src="assets/stacks-investors.png" class="img-fluid">
+      <div class="investors">
+        <img src="assets/investors/investor1.jpg" alt="">
+        <img src="assets/investors/investor2.jpg" alt="">
+        <img src="assets/investors/investor3.jpg" alt="">
+        <img src="assets/investors/investor4.jpg" alt="">
+        <img src="assets/investors/investor5.jpg" alt="">
+        <img src="assets/investors/investor6.jpg" alt="">
+        <img src="assets/investors/investor7.jpg" alt="">
+        <img src="assets/investors/investor8.jpg" alt="">
+        <img src="assets/investors/investor9.jpg" alt="">
+        <img src="assets/investors/investor10.jpg" alt="">
+        <img src="assets/investors/investor11.jpg" alt="">
+        <img src="assets/investors/investor12.jpg" alt="">
+        <img src="assets/investors/investor13.jpg" alt="">
+        <img src="assets/investors/investor14.jpg" alt="">
+        <img src="assets/investors/investor15.jpg" alt="">
+        <img src="assets/investors/investor16.jpg" alt="">
+        <img src="assets/investors/investor17.jpg" alt="">
+        <img src="assets/investors/investor18.jpg" alt="">
+        <img src="assets/investors/investor19.jpg" alt="">
+        <img src="assets/investors/investor20.jpg" alt="">
+      </div>
+      
     </section>
     <section id="community" class="container-fluid">
       <h2>Our community is your community</h2>
       <p>Over 100,000 developers in our community are ready to try your product or even join your team</p>
-      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 320, "gutter": 5 }'>
+      <div class="grid">
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-1.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-2.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-3.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-4.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-5.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-6.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-7.jpg" alt=""></div>
@@ -110,7 +142,6 @@
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-13.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-14.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-15.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-16.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-17.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-18.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-19.jpg" alt=""></div>
@@ -119,7 +150,6 @@
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-22.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-23.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-24.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-25.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-26.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-27.jpg" alt=""></div>
         <div class="grid-item"><img class="img-fluid" src="assets/community/stacks-community-28.jpg" alt=""></div>
@@ -139,8 +169,8 @@
       <h2>Our program helps you succeed faster</h2>
       <p>In three months we help you build, launch, get users, and raise the capital you need to grow</p>
       <div class="row margin-bottom-5">
-        <div class="col">
-          <div class="card text-white bg-dark">
+        <div class="col col-12 col-md-4">
+          <div class="card text-white bg-dark mb-sm-2">
             <div class="card-header">
               <strong>Month 1</strong>
             </div>
@@ -155,8 +185,8 @@
             </ul>
           </div>
         </div>
-        <div class="col">
-          <div class="card text-white bg-dark">
+        <div class="col col-12 col-md-4">
+          <div class="card text-white bg-dark mb-sm-2">
             <div class="card-header">
               <strong>Month 2</strong>
             </div>
@@ -171,7 +201,7 @@
             </ul>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-4">
           <div class="card text-white bg-dark">
             <div class="card-header">
               <strong>Month 3</strong>
@@ -194,7 +224,7 @@
         </div>
       </div>
       <div class="row margin-bottom-5">
-        <div class="col">
+        <div class="col col-12 col-md-6 mb-sm-3">
           <h3>Network of 50+ Mentors</h3>
           <p class="smaller-p">Our mentors bring a diverse set of skills from various industries to give you key feedback and push you to the next level. They are your long-term allies and champions.</p>
           <div class="mentors">
@@ -256,7 +286,7 @@
             <img class="img-fluid" src="assets/mentors/mentor-56.png" alt="">
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-6">
           <h3>Dedicated EIR For Each Team</h3>
           <p class="smaller-p">Our Entrepreneurs-In-Residence are Stacks experts, crypto super connectors, and battle-tested entrepreneurs. They function as an extension of your team.</p>
           <div class="eirs">
@@ -272,21 +302,21 @@
         </div>
       </div>
       <div class="row margin-bottom-5">
-        <div class="col">
+        <div class="col col-12 col-md-6 mb-sm-3">
           <h3>Demo Day With 100+ Investors & Media</h3>
           <p class="smaller-p">Stacks Accelerator Global Demo Day will be the online event the investor community can't miss and the media can't stop talking about.</p>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-6">
           <h3>Launch Week With PR & Community Support</h3>
           <p class="smaller-p">Why launch by yourself when you can have an entire community spreading the word on your big day?</p>
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col col-12 col-md-6 mb-sm-3">
           <h3>Alumni Community Lifetime Membership</h3>
           <p class="smaller-p">Stacks Accelerator is not just a 3-month program, it's a lifetime community.</p>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-6">
           <h3>Experienced Accelerator Staff</h3>
           <p class="smaller-p">Our team has more than 30 years combined experience working with startups and running accelerators. We've helped raise over $100M.</p>
         </div>
@@ -296,19 +326,19 @@
       <h2>About Stacks ($STX)</h2>
       <p>The only platform that makes the Bitcoin network programmable. The first-ever SEC-approved token sale. Stacks is a coalition of professionally-run organizations supporting the development and growth of the new internet.</p>
       <div class="row">
-        <div class="col">
+        <div class="col col-12 col-md-6">
           <div class="iframe-container slideshare">
             <iframe class="responsive-iframe" src="//www.slideshare.net/slideshow/embed_code/key/gLyCq8mJKtaekc" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-6">
           <div class="iframe-container responsive-16x9">
             <iframe class="responsive-iframe" src="https://www.youtube.com/embed/BmejRmkLxZU?start=79&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col col-12 col-md-4">
           <div class="iframe-container responsive-16x9">
             <iframe class="responsive-iframe" src="https://www.youtube.com/embed/u1lMANhOrQo?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -316,7 +346,7 @@
             <iframe class="responsive-iframe" src="https://www.youtube.com/embed/T25tR6Q_aCs?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-4">
           <div class="iframe-container responsive-16x9">
             <iframe class="responsive-iframe" src="https://www.youtube.com/embed/PW9hztdJyg8?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -324,7 +354,7 @@
             <iframe class="responsive-iframe" src="https://www.youtube.com/embed/0v9xhwWvC0M?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-4">
           <div class="iframe-container responsive-16x9">
             <iframe class="responsive-iframe" src="https://www.youtube.com/embed/xzdTmZceNoY?start=5&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -336,7 +366,7 @@
     </section>
     <section id="case-studies" class="container-fluid">
       <h2>More than 500 apps are already launched on Stacks</h2>
-      <p>With the possibilities endless, we can't wait to see what you will build</p>
+      <p>With the possibilities endless, we can't wait to see what you build</p>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
         <div class="col">
           <div class="card">
@@ -434,8 +464,8 @@
     <section id="our-offer" class="container-fluid text-center">
       <h2 class="margin-bottom-5">Our offer for you</h2>
       <div class="row">
-        <div class="col col-lg-5">
-          <h3 style="font-size:2.3rem;margin-bottom:12px;">
+        <div class="col col-12 col-md-5">
+          <h3 class="org-name" style="margin-bottom:12px;">
             <img src="assets/stacks-accelerator-x.png" height="32px" style="margin-top:-5px;margin-right:3px;">
             Stacks Accelerator
           </h3>
@@ -452,15 +482,15 @@
             </ul>
           </div>
         </div>
-        <div class="col col-lg-2">
+        <div class="col col-12 col-md-2">
           <div class="d-flex justify-content-center align-items-center" style="height:100%;">
             <div id="plus">
               +
             </div>
           </div>
         </div>
-        <div class="col col-lg-5">
-          <h3 style="font-size:2.3rem;margin-bottom:12px;">
+        <div class="col col-12 col-md-5">
+          <h3 class="org-name" style="margin-bottom:12px;">
             <img src="assets/stacks-foundation-x.png" height="32px" style="margin-top:-6px;margin-right:2px;">
             Stacks Foundation
           </h3>
@@ -483,26 +513,26 @@
       </div>
     </section>
     <section id="final-cta" class="container-fluid text-center">
-      <h2>Let's build the new internet, together</h2>
+      <h2 class="closing">Let's build the new internet, together</h2>
       <p>You only regret the chances you don't take</p>
-      <div>
-        <a href="#" target="_blank" id="final-cta-btn" class="btn btn-primary btn-lg" style="width:30%;">Apply Now</a>
+      <div class="d-none d-md-block">
+        <a href="#" target="_blank" id="final-cta-btn" class="btn btn-primary btn-lg">Apply Now</a>
+        <div style="margin-top:10rem;">
+          &copy;
+          <span id="copyright">
+              <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+          </span>
+          Stacks Accelerator
+        </div>
       </div>
-      <div style="margin-top:10rem;">
-        &copy;
-        <span id="copyright">
-            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-        </span>
-        Stacks Accelerator
+      <div class="bottom-finger d-block d-sm-none">
+        👇
       </div>
     </section>
+    <div class="bottom-sm-cta d-block d-sm-none">
+      <a href="#" target="_blank" class="btn btn-primary btn-lg" style="width:100%;">Apply Now</a>
+    </div>
     <script>
-      document.addEventListener("DOMContentLoaded", function(event) {
-        var community = new Masonry( '.grid', {
-          columnWidth: 320,
-          itemSelector: '.grid-item',
-          gutter: 5
-        });
         window.onscroll = function() {changeButton()};
         function changeButton() {
           if ((document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) && (window.innerHeight + window.scrollY) < document.body.offsetHeight) {

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	background-color: #f7f7f8;
 }
@@ -14,20 +18,27 @@ nav {
   background-color: #f7f7f8;
 }
 
+.navbar-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #intro {
   margin-top: 54px;
 }
 
 main, section {
-	min-height: 720px;
-}
-
-.container-fluid {
-	padding: 0 3rem;
+	min-height: 700px;
 }
 
 .hero, #stacks-animation {
 	height: 100%;
+}
+
+#stacks-animation {
+  margin-right:-36px;
+  margin-top:-10px;
 }
 
 .hero {
@@ -187,6 +198,7 @@ p:last-child {
 .grid-item {
   width: 320px;
   margin-bottom: 5px;
+  display: inline-block;
 }
 
 .mentors img {
@@ -211,6 +223,10 @@ p:last-child {
   filter: blur(4px);
 }
 
+.investors img {
+  width: 250px;
+}
+
 
 h1 {
 	font-size: 4rem;
@@ -221,16 +237,19 @@ h1 {
 h2 {
 	font-size: 3rem;
   font-weight: 700;
-	margin: 7rem 0 2rem;
+	margin: 0 0 2rem;
+}
+
+.container-fluid {
+  padding: 0 3rem;
+}
+
+section.container-fluid {
+  padding: 7rem 3rem;
 }
 
 #investor-network, #program, #case-studies, #final-cta {
   background-color: #fff;
-  padding: 7rem 3rem;
-}
-
-#investor-network h2, #program h2, #case-studies h2, #final-cta h2 {
-  margin-top: 0;
 }
 
 #community, #our-offer {
@@ -333,3 +352,105 @@ h2 {
   font-style: normal;
   font-display: swap;
 }
+
+.bottom-sm-cta {
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+#final-cta-btn {
+  width: 33%;
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .investors img {
+    width: 49%;
+  }
+  .navbar-align {
+    justify-content: center;
+  }
+  .navbar-cta {
+    display: none;
+  }
+  .hero {
+    margin-top: 30px;
+  }
+  #intro {
+    min-height: 100vh;
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.85rem;
+  }
+  h3.org-name {
+    font-size: 1.7rem
+  }
+  .container-fluid {
+    padding: 0 1rem;
+  }
+  section.container-fluid {
+    padding: 4rem 1rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    margin-bottom: 5vw;
+  }
+  .hero .btn {
+    display: none;
+  }
+  #stacks-animation {
+    margin-right: 0;
+    margin-top: -25px;
+  }
+  .mb-sm-2 {
+    margin-bottom: 2rem;
+  }
+  .mb-sm-3 {
+    margin-bottom: 3rem;
+  }
+  .margin-bottom-5 {
+    margin-bottom: 3rem;
+  }
+  .bottom-finger {
+    font-size: 10rem;
+  }
+  .investors, .grid, .mentors, .eirs {
+    text-align: center;
+  }
+  h2.closing {
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+ }
+
+@media (min-width: 768px) { 
+  h3.org-name {
+    font-size: 2.3rem;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }
