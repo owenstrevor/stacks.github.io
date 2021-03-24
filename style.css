@@ -436,6 +436,9 @@ section.container-fluid {
   section#final-cta {
     padding-top: 7rem;
   }
+  #case-studies .card {
+    margin-bottom: 4rem;
+  }
  }
 
 @media (min-width: 768px) { 
