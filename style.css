@@ -1,0 +1,335 @@
+body {
+	background-color: #f7f7f8;
+}
+
+.navbar-brand, h1, h2 {
+	font-family: "Open Sauce";
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+}
+
+nav {
+  background-color: #f7f7f8;
+}
+
+#intro {
+  margin-top: 54px;
+}
+
+main, section {
+	min-height: 720px;
+}
+
+.container-fluid {
+	padding: 0 3rem;
+}
+
+.hero, #stacks-animation {
+	height: 100%;
+}
+
+.hero {
+  margin-top: -40px;
+}
+
+.btn {
+	font-family: "Inter";
+	font-weight: 500;
+	letter-spacing: -0.01em;
+}
+
+.btn-lg {
+  border-radius: 8px;
+  padding: 16px 32px;
+  line-height: 26px;
+}
+
+.btn-primary {
+	background-color: #5546ff;
+}
+
+.bg-primary {
+  background-color: #5546ff!important;
+}
+
+.hero .btn {
+	width: 40%;
+}
+
+#what-we-do h2 {
+  margin-bottom: 4rem;
+}
+
+.justify-content-center h2 {
+  margin-top: 0;
+}
+
+p {
+	font-size: 1.8rem;
+	font-family: "Inter";
+	margin-bottom: 2.5rem;
+}
+
+p.smaller-p {
+  font-size: 1.2rem;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom-p {
+  margin-bottom: 2.5rem;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5rem;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, .075);
+}
+
+.card > .list-group {
+  border-radius: 0;
+}
+
+.card.bg-danger .list-group-item {
+  background-color: #dc3545;
+}
+
+.card.bg-warning .list-group-item {
+  background-color: #ffc107;
+}
+
+.card.bg-success .list-group-item {
+  background-color: #198754;
+}
+
+.card.bg-dark .list-group-item {
+  background-color: #212529;
+}
+
+.card.bg-primary .list-group-item {
+  background-color: #5546ff;
+}
+
+#program .card.bg-dark .list-group-item {
+  background-color: #5546ff;
+}
+
+#program .list-group {
+  border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#case-studies .card {
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  min-height: 400px;
+  border: 1px solid #eee;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, .075);
+}
+
+#case-studies .card .card-img-top {
+  border-radius: 12px 12px 0 0;
+}
+
+#our-offer .card {
+  border-radius: none;
+  padding: 4rem 0;
+}
+
+.super-big {
+  font-size: 6rem;
+}
+
+#our-offer .list-group-item {
+  border: none;
+}
+
+#our-offer #plus {
+  font-size: 8rem;
+}
+
+
+
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+#what-we-do {
+	overflow: hidden;
+}
+
+.video-bg #myVideo {
+	position: absolute;
+	width: 100%;
+}
+
+.video-bg .content {
+  color: #fff;
+	position: absolute;
+}
+
+
+
+
+.grid-item {
+  width: 320px;
+  margin-bottom: 5px;
+}
+
+.mentors img {
+  width: 75px;
+  margin-bottom: 5px;
+  filter: blur(4px);
+}
+
+.eirs {
+  display: inline-block;
+}
+
+.eir {
+  height: 155px;
+  width: 155px;
+  overflow-y: hidden;
+  display: inline-block;
+}
+
+.eir img {
+  width: 155px;
+  filter: blur(4px);
+}
+
+
+h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+}
+
+h2 {
+	font-size: 3rem;
+  font-weight: 700;
+	margin: 7rem 0 2rem;
+}
+
+#investor-network, #program, #case-studies, #final-cta {
+  background-color: #fff;
+  padding: 7rem 3rem;
+}
+
+#investor-network h2, #program h2, #case-studies h2, #final-cta h2 {
+  margin-top: 0;
+}
+
+#community, #our-offer {
+  padding-bottom: 7rem;
+}
+
+#about-stacks {
+  padding-bottom: 4.5rem;
+}
+
+#final-cta {
+  min-height: 0;
+}
+
+
+
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.iframe-container.slideshare {
+  padding-top: 69%;
+}
+
+.iframe-container.responsive-16x9 {
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd379106a54bba853d7be60_Inter-Regular.woff2') format('woff2'), url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd3791099e0406f1d89f0da_Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fe32d5a000ba2d747c07953_Inter-Medium.woff2') format('woff2'), url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fe32d5ac331aa73fe3718c1_Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd0d6acb4e458d2aff55df0_OpenSauceOne-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd0d6ac8835243525c7f1bb_OpenSauceOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd0d6ac422fa9d2d22674fc_OpenSauceOne-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd0d6aed1305e8363c8320e_OpenSauceOne-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd0d6ac8c0198b357c748c4_OpenSauceOne-Bold.ttf') format('truetype'), url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd0d6ac502728ef66b430f0_OpenSauceOne-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('https://assets.website-files.com/5fcf9ac604d37418aa70a5ab/5fd0d6ac422fa92f3f2674fd_OpenSauceOne-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
