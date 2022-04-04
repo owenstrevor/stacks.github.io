@@ -3,6 +3,7 @@ header.hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 header > video {
@@ -10,7 +11,7 @@ header > video {
 }
 
 main {
-  padding: 0 !important;
+  padding: 15px !important;
 }
 
 article > h2 {
@@ -23,7 +24,13 @@ footer > button {
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-
+  header.hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  header > video {
+    padding-left: 0px;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
