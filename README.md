@@ -1,1 +1,1 @@
-# Stacks-Accelerator.github.io
+# stacks.github.io
