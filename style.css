@@ -8,6 +8,7 @@ header.hero {
 
 header > video {
   padding-left: 30px;
+  width: 100%;
 }
 
 main {
@@ -27,6 +28,7 @@ footer > button {
   header.hero {
     flex-direction: column;
     text-align: center;
+    padding: 30px 0 0;
   }
   header > video {
     padding-left: 0px;
